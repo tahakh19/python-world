@@ -15,21 +15,18 @@ for i in N:
         S.append(i+j)
 
 G={}
-for i in range(1,13):
-    G[i]=0
+#for i in range(1,13):
+#    G[i]=0
 
-for i in S :
-    G[i]=G[i]+1
+#for i in S :
+#    G[i]=G[i]+1
 
 for i in S:
     if i in G:
         G[i] += 1
-        G[i] = G[i] + 1
+        #G[i] = G[i] + 1
     else:
         G[i] = 0
-        
-
-
 print(G)
     
 	
